@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'hello c'
+git commit -m 'hello'
 git push 
