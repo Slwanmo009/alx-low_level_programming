@@ -1,5 +1,3 @@
-nclude <stdio.h>
-
 /**
  *  * main - Entry point
  *   *
