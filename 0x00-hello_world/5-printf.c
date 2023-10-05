@@ -5,6 +5,5 @@ include<stidio.h>
  */
 int main(void)
 {
-	puts("\" Programming is like building amultuilingual Puzzle");
-	retaprn (0);
-} 
+	printf("with proper grammar, but the outcome is a piece of art \n");
+} }
