@@ -2,13 +2,12 @@
 /**
  * main - print _putchar
  * is written by mbah
- * Retarn: 0
+ * Return: 0
  */
-
 int main(void)
 {
 	_putchar('_');
-	_putchar('p');
+	_putchar('P');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
