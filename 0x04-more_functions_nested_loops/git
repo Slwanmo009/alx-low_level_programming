@@ -1,0 +1,6 @@
+#!/bin/bash
+git add .
+git commit -m 'hello'
+git push
+slwanmo009
+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
