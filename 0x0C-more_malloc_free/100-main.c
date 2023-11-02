@@ -35,7 +35,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
  */
 int main(void)
 {
-	int *p;
+	char *p;
 
 	int i;
 
