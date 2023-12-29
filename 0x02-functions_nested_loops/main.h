@@ -1,5 +1,6 @@
 #ifndef main_h
 #define main_h
+int print_sign(int n);
 int _putchar(char);
 void print_alphabet(void);
 int _isalpha(int c);
