@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * wrdcnt - counts the number of words in a string
  * @s: string of count
@@ -28,7 +29,7 @@ int wrdcnt(char *s)
  */
 char **strtow(char *str)
 {
-	int i, k, k, l, n = 0, wc = 0;
+	int i, k, j, l, n = 0, wc = 0;
 	char **w;
 
 	if (str == NULL || *str == '\0')
@@ -54,12 +55,12 @@ char **strtow(char *str)
 			{
 				for (k = 0; k < wc; k++)
 					free(w[k]);
-				free(w[k - 1];
+				free(w[k - 1]);
 						free(w);
 						return (NULL);
 						}
-						for (l = 0; l < k; l++)
-						[wc][l] = str[i + 1];
+						for (l = 0; l < j; l++)
+						w[wc][l] = str[i + 1];
 						w[wc][l] = '\0';
 						wc++;
 						i += j;
