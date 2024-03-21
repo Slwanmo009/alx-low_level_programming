@@ -6,7 +6,7 @@
  * @n: int field of new head
  * Return: address of new node or NULL
  */
-stint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 
 	dlistint_t *new = malloc(sizeof(dlistint_t)), *node;
