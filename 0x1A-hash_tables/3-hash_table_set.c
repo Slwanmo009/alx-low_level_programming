@@ -18,7 +18,7 @@ hash_node_t *make_hash_node(const char *key, const char *value)
 		free(node);
 		return (NULL);
 	}
-	node->value = strdup(vaule);
+	node->value = strdup(value);
 	if (node->value == NULL)
 	{
 		free(node->key);
@@ -48,7 +48,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	tmp = ht->array[index];
 	while (tmp != NULL)
 	{
-		if (strcmp(tmp->key) == 0)
+		if (strcmp(tmp->key, key) == 0)
 		{
 			new_value = strdup(value);
 			if (new_value == NULL)
