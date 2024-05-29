@@ -1,0 +1,9 @@
+#Create first useful Makefile.
+
+CC = gcc
+SRC = main.c school.c
+OBJ = ${SRC:%.c=%.o}
+NAME = school
+
+all: ${SRC}
+	${CC} ${OBJ} -o ${NAME}
